@@ -26,7 +26,7 @@ export default class Lottie_1 extends React.Component {
             height: 400,
             backgroundColor: "#eee",
           }}
-          source={require("../assets/wave.json")}
+          source={require("../assets/react.json")}
         />
         <View style={styles.buttonContainer}>
           <Button title="Restart Animation" onPress={this.resetAnimation} />
