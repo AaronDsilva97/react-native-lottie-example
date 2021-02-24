@@ -1,6 +1,6 @@
 import React from "react";
-import BottomTabNav from "./src/navigation/BottomTabNav";
+import DrawerNav from "./src/navigation/DrawerNav";
 
 export default function App() {
-  return <BottomTabNav />;
+  return <DrawerNav />;
 }
