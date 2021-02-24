@@ -20,7 +20,12 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home">
+      <Drawer.Navigator
+        initialRouteName="Home"
+        screenOptions={{
+          headerShown: true,
+        }}
+      >
         <Drawer.Screen name="Home" component={BottomTabNav} />
         <Drawer.Screen name="Lottie_1" component={Lottie_1} />
         <Drawer.Screen name="Lottie_2" component={Lottie_2} />
